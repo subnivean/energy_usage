@@ -40,3 +40,14 @@ df2021.plot()
 # df2021.reset_index().plot(x='DateTime', y=1, kind='scatter', ax=ax)
 
 plt.show()
+
+# Examples
+# solar = dict()
+# for n in [2, 7, 8, 10]:
+#     s = df.loc[f"2021-03-{n:02d}"]['Solar_kW'].copy()
+#     s.index -= pd.Timedelta(f"{n - 1}d")
+#     solar[f"03{n:02d}"] = s
+# solar['0302'].plot()
+# solar['0307'].plot()
+# solar['0308'].plot()
+# solar['0310'].plot()
