@@ -11,13 +11,13 @@ columns ='fdate azi alt dotp roofazi roofalt'.split()
 
 pysolar.use_numpy()
 
-starttime = datetime.datetime.fromisoformat('2021-03-07T00:00:00+00:00')
+starttime = datetime.datetime.fromisoformat('2021-03-12T00:00:00+00:00')
 
-ROOFALT = 90 - 16.7
+ROOFALT = 90 - 15.0
 # ROOFALT = 90 - 17.7
 # ROOFAZI = 126
 # ROOFAZI = 131
-ROOFAZI = 145
+ROOFAZI = 139.38  # Measured by sun position
 # ROOFAZI = 150
 LATLON = [43.752047, -73.275785]
 
